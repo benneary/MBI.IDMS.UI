@@ -1,0 +1,37 @@
+.UserSearchResult-Header {
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+	color: rgba(52, 52, 52, 1);
+}
+
+.UserSearchResult-Table{
+	background-color: white;
+	margin-top: 1em;
+	font-size: 0.95em;
+}
+
+.t-header {
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	color: white;
+	font-weight: 600;
+	background-color: rgba(70, 70, 70, 1);
+}
+
+.t-row {
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: rgba(70, 70, 70, 1);
+}
+
+.t-row:nth-child(1){
+    background: white;
+}
+.t-row:nth-child(even){
+    background: rgba(246, 246, 246, 1);
+}

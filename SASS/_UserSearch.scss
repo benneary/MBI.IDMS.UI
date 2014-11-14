@@ -1,0 +1,48 @@
+.UserSearch-Title{
+	font-size: 3em;
+	font-weight: 100;
+	text-align: left;
+	color: rgba(52, 52, 52, 1)	;
+	margin-bottom: 0.3em;
+}
+
+.UserSearch {
+	margin-top: 6em;
+}
+
+.UserSearch-icon-box {
+	width: 11%;
+	border: none;
+	outline: none;
+	padding: 1.39em;
+	background-color: rgba(255, 187, 66, 1);
+	color: white;
+
+	i{
+		color: white;
+		font-size: 1.2em;
+	}
+}
+
+.UserSearch-icon-box:hover {
+	background-color: rgba(217, 161, 60, 1);
+}
+
+.UserSearch-input-i{
+	padding: 1.3em;
+	border: none;
+	font-size: 1em;
+	width: 100%
+}
+.UserSearch-input-i:focus{
+	outline: none;
+}
+
+.UserSearch-subhead {
+	font-size: 0.9em;
+	margin-top: 1em;
+	font-weight: 100;
+	color: #676767;
+	float: left;
+	margin-left: 1.2em;
+}

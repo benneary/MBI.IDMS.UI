@@ -1,0 +1,153 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IDMS</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!-- Begin Navbar --> 
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <li class="navbar-brand">IDMS Administrative Console</li>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active hidden-sm hidden-xs enviroment-txt "> Current Enviroment: <span class="green">Production</span></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="custom-nav"><a href="#">Password Reset</a></li>
+        <li class="custom-nav"><a href="#">User Security</a></li>
+        <li class="custom-nav"><a href="#">User Search</a></li>
+        <li class="dropdown custom-nav">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">bneary<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End Navbar --> 
+
+<!-- Start Login Page -->
+<div class="login-dialogue col-sm-offset-4 col-sm-4" hidden>
+  <div class="login-body">
+    <div class="IDMS-title">IDMS Login</div>
+    
+    <div class="login-input-bd float col-12">
+      <div class="login-icon-box float">
+        <i class="fa fa-user"></i>
+      </div>
+      <div class="login-input col-10 float">
+        <input class="login-input-i" placeholder="Username" type="text">
+      </div>
+    </div>
+
+    <div class="login-input-bd float col-12">
+      <div class="login-icon-box float">
+        <i class="fa fa-lock"></i>
+      </div>
+      <div class="login-input col-10 float">
+        <input class="login-input-i" placeholder="Password" type="password">
+      </div>
+    </div>
+
+    <button class="login-btn">Log In</button>
+  </div>
+</div>
+<!-- End Login Page -->
+
+
+<!-- Start User Search -->
+<div class="UserSearch col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8" hidden>
+  <div class="UserSearch-body">
+    <div class="UserSearch-Title">User Search</div>
+    
+    <div class="UserSearch-input-bd float col-12">
+      <div class="UserSearch-input col-10 float">
+        <input class="UserSearch-input-i" placeholder="Username" type="text">
+      </div>
+      <button class="UserSearch-icon-box float">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="UserSearch-subhead">
+      Donec sodales nisl non augue laoreet consectetur. Vestibulum ornare auctor aliquet.
+    </div>
+  </div>
+</div>
+<!-- End Login Page -->
+
+
+<!-- Start User Search Result Table -->
+<div class="UserSearchResult col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+ <div class="UserSearchResult-Header">User Search Result</div>
+  <div class="UserSearchResult-Table col-12 float">
+
+  <div class="t-header col-12 float">
+    <div class="th-username col-3 float">Username</div>
+     <div class="th-name col-4 float">Name</div>
+     <div class="th-emplid col-4 float">Emplid</div>
+     <div class="th-Tools col-1 float">Tools</div>
+  </div>
+
+<div class="t-body float col-12">
+
+   <div class="t-row float col-12">
+     <div class="t-username col-3 float">bneary</div>
+     <div class="t-name col-4 float">Ben Neary</div>
+     <div class="t-emplid col-4 float">40501045</div>
+     <div class="t-Tools col-1 float"><i class="fa fa-copy"></i>&nbsp; &nbsp;<i class="fa fa-caret-down"></i></div>
+   </div>
+
+      <div class="t-row float col-12">
+     <div class="t-username col-3 float">bneary</div>
+     <div class="t-name col-4 float">Ben Neary</div>
+     <div class="t-emplid col-4 float">40501045</div>
+     <div class="t-Tools col-1 float"><i class="fa fa-copy"></i>&nbsp; &nbsp;<i class="fa fa-caret-down"></i></div>
+   </div>
+
+      <div class="t-row float col-12">
+     <div class="t-username col-3 float">bneary</div>
+     <div class="t-name col-4 float">Ben Neary</div>
+     <div class="t-emplid col-4 float">40501045</div>
+     <div class="t-Tools col-1 float"><i class="fa fa-copy"></i>&nbsp; &nbsp;<i class="fa fa-caret-down"></i></div>
+   </div>
+
+      <div class="t-row float col-12">
+     <div class="t-username col-3 float">bneary</div>
+     <div class="t-name col-4 float">Ben Neary</div>
+     <div class="t-emplid col-4 float">40501045</div>
+     <div class="t-Tools col-1 float"><i class="fa fa-copy"></i>&nbsp; &nbsp;<i class="fa fa-caret-down"></i></div>
+   </div>
+
+   
+
+  </div>
+
+  </div>
+</div>
+<!-- End User Search Result Table -->
+
+
+     </body>
+     </html>

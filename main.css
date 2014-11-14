@@ -1,0 +1,263 @@
+/* line 2, SASS/_variables.scss */
+.green {
+  color: #7af5a0;
+}
+
+/* line 1, SASS/_layoutgrid.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 2, SASS/_layoutgrid.scss */
+.col-11 {
+  width: 91%;
+}
+
+/* line 3, SASS/_layoutgrid.scss */
+.col-10 {
+  width: 83%;
+}
+
+/* line 4, SASS/_layoutgrid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 5, SASS/_layoutgrid.scss */
+.col-8 {
+  width: 66%;
+}
+
+/* line 6, SASS/_layoutgrid.scss */
+.col-7 {
+  width: 58.3%;
+}
+
+/* line 7, SASS/_layoutgrid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 8, SASS/_layoutgrid.scss */
+.col-5 {
+  width: 42%;
+}
+
+/* line 9, SASS/_layoutgrid.scss */
+.col-4 {
+  width: 33%;
+}
+
+/* line 10, SASS/_layoutgrid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 11, SASS/_layoutgrid.scss */
+.col-2 {
+  width: 16.6%;
+}
+
+/* line 12, SASS/_layoutgrid.scss */
+.col-1 {
+  width: 8.3%;
+}
+
+/* line 13, SASS/_layoutgrid.scss */
+.float {
+  float: left;
+}
+
+/* line 1, SASS/_body.scss */
+body {
+  font-family: "Open Sans", Sans-Serif;
+  background-color: #dfe2e2;
+}
+
+/* line 1, SASS/_navbar.scss */
+.navbar-brand {
+  font-weight: 100;
+  font-size: 1em;
+}
+
+/* line 6, SASS/_navbar.scss */
+.enviroment-txt {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* line 16, SASS/_navbar.scss */
+.custom-nav {
+  font-size: 0.85em;
+  font-weight: 400;
+  color: white;
+}
+
+/* line 1, SASS/_Login.scss */
+.IDMS-title {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: left;
+  color: #343434;
+  margin-bottom: 0.3em;
+}
+
+/* line 9, SASS/_Login.scss */
+.login-dialogue {
+  margin-top: 6em;
+}
+
+/* line 13, SASS/_Login.scss */
+.login-input-bd {
+  background-color: white;
+  margin-top: 0.5em;
+}
+
+/* line 18, SASS/_Login.scss */
+.login-icon-box {
+  width: 13%;
+  padding: 1.39em;
+  background-color: #4abce7;
+  color: white;
+}
+/* line 24, SASS/_Login.scss */
+.login-icon-box i {
+  color: white;
+  font-size: 1.2em;
+}
+
+/* line 29, SASS/_Login.scss */
+.login-input-i {
+  padding: 1.3em;
+  border: none;
+  font-size: 1em;
+}
+
+/* line 34, SASS/_Login.scss */
+.login-input-i:focus {
+  outline: none;
+}
+
+/* line 38, SASS/_Login.scss */
+.login-btn {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-left: 1.7em;
+  padding-right: 1.7em;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-top: 1.3em;
+  float: right;
+  background-color: #999999;
+  border: none;
+}
+
+/* line 1, SASS/_UserSearch.scss */
+.UserSearch-Title {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: left;
+  color: #343434;
+  margin-bottom: 0.3em;
+}
+
+/* line 9, SASS/_UserSearch.scss */
+.UserSearch {
+  margin-top: 6em;
+}
+
+/* line 13, SASS/_UserSearch.scss */
+.UserSearch-icon-box {
+  width: 11%;
+  border: none;
+  outline: none;
+  padding: 1.39em;
+  background-color: #ffbb42;
+  color: white;
+}
+/* line 21, SASS/_UserSearch.scss */
+.UserSearch-icon-box i {
+  color: white;
+  font-size: 1.2em;
+}
+
+/* line 27, SASS/_UserSearch.scss */
+.UserSearch-icon-box:hover {
+  background-color: #d9a13c;
+}
+
+/* line 31, SASS/_UserSearch.scss */
+.UserSearch-input-i {
+  padding: 1.3em;
+  border: none;
+  font-size: 1em;
+  width: 100%;
+}
+
+/* line 37, SASS/_UserSearch.scss */
+.UserSearch-input-i:focus {
+  outline: none;
+}
+
+/* line 41, SASS/_UserSearch.scss */
+.UserSearch-subhead {
+  font-size: 0.9em;
+  margin-top: 1em;
+  font-weight: 100;
+  color: #676767;
+  float: left;
+  margin-left: 1.2em;
+}
+
+/* line 1, SASS/_UserSearchResult.scss */
+.UserSearchResult-Header {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  color: #343434;
+}
+
+/* line 8, SASS/_UserSearchResult.scss */
+.UserSearchResult-Table {
+  background-color: white;
+  margin-top: 1em;
+  font-size: 0.95em;
+}
+
+/* line 14, SASS/_UserSearchResult.scss */
+.t-header {
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  color: white;
+  font-weight: 600;
+  background-color: #464646;
+}
+
+/* line 24, SASS/_UserSearchResult.scss */
+.t-row {
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #464646;
+}
+
+/* line 32, SASS/_UserSearchResult.scss */
+.t-row:nth-child(1) {
+  background: white;
+}
+
+/* line 35, SASS/_UserSearchResult.scss */
+.t-row:nth-child(even) {
+  background: #f6f6f6;
+}
