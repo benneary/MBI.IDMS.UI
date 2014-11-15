@@ -1,0 +1,58 @@
+.provision-list-title {
+	font-weight: 700;
+	padding-top: 0.5em;
+	font-size: 0.95em;
+}
+
+.provisions-list-input {
+	width: 100%;
+	float: left;
+	border-radius: 4px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	border: none;
+	outline: none;
+	font-size: 0.95em;
+}
+
+.t-row-roles {
+	font-size: 0.9em;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	color: rgba(70, 70, 70, 1);
+	word-wrap: break-word;
+}
+
+.t-row-roles:nth-child(1){
+    background: white;
+}
+.t-row-roles:nth-child(even){
+    background: rgba(246, 246, 246, 1);
+}
+
+.t-row-i {
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	color: rgba(70, 70, 70, 1);
+	word-wrap: break-word;
+	background-color: #dfe2e2;
+}
+
+.roles-list-title {
+	font-weight: 600;
+}
+
+.roles-tables {
+	float: left;
+	margin-top: 2em;
+}
+
+.Roles-list {
+	padding: 1.2em;
+}

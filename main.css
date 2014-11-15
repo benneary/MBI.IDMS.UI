@@ -30,7 +30,7 @@
 
 /* line 6, SASS/_layoutgrid.scss */
 .col-7 {
-  width: 58.3%;
+  width: 58%;
 }
 
 /* line 7, SASS/_layoutgrid.scss */
@@ -72,6 +72,28 @@
 body {
   font-family: "Open Sans", Sans-Serif;
   background-color: #dfe2e2;
+}
+
+/* line 6, SASS/_body.scss */
+.username-header {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: left;
+  color: #343434;
+  padding-left: 1em;
+}
+
+/* line 15, SASS/_body.scss */
+.ChangePassword-body {
+  margin-top: 2em;
+}
+
+/* line 19, SASS/_body.scss */
+.userid-properties {
+  letter-spacing: 0.05em;
+  font-size: 0.4em;
+  font-weight: 700;
+  color: #626262;
 }
 
 /* line 1, SASS/_navbar.scss */
@@ -226,13 +248,21 @@ body {
 }
 
 /* line 8, SASS/_UserSearchResult.scss */
+.PageLocation-Header {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  color: #343434;
+}
+
+/* line 15, SASS/_UserSearchResult.scss */
 .UserSearchResult-Table {
   background-color: white;
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-size: 0.95em;
 }
 
-/* line 14, SASS/_UserSearchResult.scss */
+/* line 21, SASS/_UserSearchResult.scss */
 .t-header {
   padding-left: 1.3em;
   padding-right: 1.3em;
@@ -243,21 +273,98 @@ body {
   background-color: #464646;
 }
 
-/* line 24, SASS/_UserSearchResult.scss */
+/* line 31, SASS/_UserSearchResult.scss */
 .t-row {
   padding-left: 1.3em;
   padding-right: 1.3em;
   padding-top: 1em;
   padding-bottom: 1em;
   color: #464646;
+  word-wrap: break-word;
 }
 
-/* line 32, SASS/_UserSearchResult.scss */
+/* line 40, SASS/_UserSearchResult.scss */
 .t-row:nth-child(1) {
   background: white;
 }
 
-/* line 35, SASS/_UserSearchResult.scss */
+/* line 43, SASS/_UserSearchResult.scss */
 .t-row:nth-child(even) {
   background: #f6f6f6;
+}
+
+/* line 47, SASS/_UserSearchResult.scss */
+.Table-title {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+/* line 1, SASS/_UserSecurity.scss */
+.provision-list-title {
+  font-weight: 700;
+  padding-top: 0.5em;
+  font-size: 0.95em;
+}
+
+/* line 7, SASS/_UserSecurity.scss */
+.provisions-list-input {
+  width: 100%;
+  float: left;
+  border-radius: 4px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  border: none;
+  outline: none;
+  font-size: 0.95em;
+}
+
+/* line 20, SASS/_UserSecurity.scss */
+.t-row-roles {
+  font-size: 0.9em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  color: #464646;
+  word-wrap: break-word;
+}
+
+/* line 30, SASS/_UserSecurity.scss */
+.t-row-roles:nth-child(1) {
+  background: white;
+}
+
+/* line 33, SASS/_UserSecurity.scss */
+.t-row-roles:nth-child(even) {
+  background: #f6f6f6;
+}
+
+/* line 37, SASS/_UserSecurity.scss */
+.t-row-i {
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  color: #464646;
+  word-wrap: break-word;
+  background-color: #dfe2e2;
+}
+
+/* line 47, SASS/_UserSecurity.scss */
+.roles-list-title {
+  font-weight: 600;
+}
+
+/* line 51, SASS/_UserSecurity.scss */
+.roles-tables {
+  float: left;
+  margin-top: 2em;
+}
+
+/* line 56, SASS/_UserSecurity.scss */
+.Roles-list {
+  padding: 1.2em;
 }

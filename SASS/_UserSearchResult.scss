@@ -5,9 +5,16 @@
 	color: rgba(52, 52, 52, 1);
 }
 
+.PageLocation-Header {
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+	color: rgba(52, 52, 52, 1);
+}
+
 .UserSearchResult-Table{
 	background-color: white;
-	margin-top: 1em;
+	margin-top: 0.5em;
 	font-size: 0.95em;
 }
 
@@ -27,6 +34,7 @@
 	padding-top: 1em;
 	padding-bottom: 1em;
 	color: rgba(70, 70, 70, 1);
+	word-wrap: break-word;
 }
 
 .t-row:nth-child(1){
@@ -35,3 +43,14 @@
 .t-row:nth-child(even){
     background: rgba(246, 246, 246, 1);
 }
+
+.Table-title {
+	margin-top: 1em;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+
+
+
+
