@@ -2,6 +2,7 @@
 	font-weight: 700;
 	padding-top: 0.5em;
 	font-size: 0.95em;
+	color: rgba(124, 124, 124, 1);
 }
 
 .provisions-list-input {
@@ -27,6 +28,7 @@
 	word-wrap: break-word;
 }
 
+
 .t-row-roles:nth-child(1){
     background: white;
 }
@@ -44,6 +46,15 @@
 	background-color: #dfe2e2;
 }
 
+.checkbox {
+	margin-bottom: 1.5em;
+	color: rgba(70, 70, 70, 1)!important;
+}
+
+.idms-claims-title {
+	color: rgba(70, 70, 70, 1)!important;
+}
+
 .roles-list-title {
 	font-weight: 600;
 }
@@ -55,4 +66,42 @@
 
 .Roles-list {
 	padding: 1.2em;
+}
+
+.idms-claims-container {
+	padding: 1.5em;
+}
+
+.light-blue {
+	color: white;
+	background-color: rgba(97, 181, 246, 1);
+}
+
+.fa-search-align {
+	text-align: right;
+}
+
+.idms-btn {
+	border-radius: 5px;
+	padding: 8px 28px;
+	outline: none;
+	color: white;
+	border: none;
+}
+
+.btn-save {
+	background-color: rgba(97, 181, 246, 1);
+	color: white;
+}
+.btn-save:hover {
+	background-color: rgba(55, 150, 217, 1);
+}
+
+.btn-cancel {
+	background-color: #838484;
+	color: white;
+}
+
+.btn-cancel:hover {
+	background-color: rgba(105, 105, 105, 1);
 }
